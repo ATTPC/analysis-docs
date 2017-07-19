@@ -19,10 +19,4 @@ Contents:
     config
     unpackGRAW
     cleanGETData
-    cleaning/cleaning
-    fitting/fitting
     coords
-    datafiles
-    gases
-    ukf
-    misc
