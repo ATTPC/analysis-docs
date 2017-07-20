@@ -16,8 +16,8 @@ be vertical.
 
 ..  caution::
     It's important to remember that the Micromegas is rotated when it is installed in the TPC. Therefore, the
-    x and y dimensions of the generated pad plane points (see :func:`pytpc.padplane.generate_pad_plane`) are not
-    the same as the horizontal and vertical directions in the lab unless a rotation is applied.
+    x and y dimensions of the generated pad plane points are not the same as the horizontal and vertical directions 
+    in the lab unless a rotation is applied.
 
     The connector side of the Micromegas has 72-degree rotational symmetry. When the Micromegas is installed in the
     TPC, it is rotated through 1.5 of these symmetric segments, so the rotation angle for the transformation is

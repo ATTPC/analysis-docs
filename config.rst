@@ -1,9 +1,9 @@
 The Config File
 ===============
 
-Many parts of the :mod:`pytpc` code are configured using settings from an external config
+Many parts of the `pytpc` code are configured using settings from an external config
 file that is read at the beginning of the fitting or simulation process. All of the scripts
-for fitting and simulation that are provided with the :mod:`pytpc` package share the same
+for fitting and simulation that are provided with them`pytpc` package share the same
 config file, making it simple to keep the simulations and the experimental data in sync.
 
 The config file is formatted as YAML_, a lightweight data serialization language. This
