@@ -23,7 +23,7 @@ Usage
 
    pyclean [-h] [--canon-evtids CANON_EVTIDS] config input output
 
-The `config` argument takes the path to the proper config file. The `input` argument takes the path to the HDF5 file to be cleaned. The `output` argument takes the path to where the cleaned HDF5 file will be written and requires a filename such as clean_run_XXXX.h5 to create a file by that name. If no path, only a filename, is provided, the file will be created in the same directory as the original HDF5. The optional `CANON_EVTIDS` arguments provides a path to an HDF5 file containing canonical evt ids. 
+The `config` argument takes the path to the proper config file. The `input` argument takes the path to the HDF5 file to be cleaned. The `output` argument takes the path to where the cleaned HDF5 file will be written and requires a filename such as clean_run_XXXX.h5 to create a file by that name. If no path, only a filename, is provided, the file will be created in the same directory as the original HDF5. The optional `CANON_EVTIDS` arguments provides a path to an HDF5 file containing information to correct for misaligned CoBo event IDs. 
 
 The following command will display this information in the terminal:
 
