@@ -6,17 +6,52 @@
 AT-TPC Data Analysis with pytpc
 ===============================
 
-This package provides Python modules for reading, analyzing, and fitting data from the AT-TPC at the
-`NSCL <http://nscl.msu.edu>`_.
+This documentation manual provides steps for installation and use of the `pytpc package <https://github.com/ATTPC/pytpc>`__ that provides Python modules for reading,
+analyzing, and fitting data from the Active-Target Time Projection Chamber (AT-TPC) at the `NSCL <http://nscl.msu.edu>`__. The documentation is hosted online by
+ReadTheDocs `here <http://attpc-analysis.readthedocs.io/en/latest/>`__, but steps for offline compilation are listed below.
+
+Dependencies
+------------
+
+The following packages are required to use pytpc's analysis-docs:
+
+- sphinx
+- sphinx-bootstrap-theme
+- latexmk (for PDF compilation)
+
+Recommended compilation procedures
+----------------------------------
+
+Compile from the base of the analysis-docs repository.
+
+To compile the manual in **HTML** format enter the following into your command line:
+
+.. code-block:: shell
+
+   make clean
+   make html
+
+To compile the manual in **PDF** format enter the following into you command line:
+
+.. code-block:: shell
+
+   make clean
+   make latexPDF
+
+Contact
+-------
+
+Josh Bradt, bradt@nscl.msu.edu
+
 
 Contents:
 
 .. toctree::
-    :maxdepth: 2
+   :maxdepth: 2
 
-    prelims
-    prelimsNoSudo
-    config
-    unpackGRAW
-    cleanGETData
-    coords
+   prelims
+   prelimsNoSudo
+   config
+   unpackGRAW
+   cleanGETData
+   coords
