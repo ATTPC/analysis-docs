@@ -16,7 +16,7 @@ be vertical.
 
 ..  caution::
     It's important to remember that the Micromegas is rotated when it is installed in the TPC. Therefore, the
-    x and y dimensions of the generated pad plane points are not the same as the horizontal and vertical directions 
+    x and y dimensions of the generated pad plane points are not the same as the horizontal and vertical directions
     in the lab unless a rotation is applied.
 
     The connector side of the Micromegas has 72-degree rotational symmetry. When the Micromegas is installed in the
@@ -43,7 +43,7 @@ Tilting the detector presents a special problem since it makes the electric and 
 easiest way to deal with this is to keep the detector's coordinate system as above, and *tilt the magnetic field vector*
 instead. This is illustrated in the figure below.
 
-.. figure:: images/coordinate_system_xyz.pdf
+.. figure:: images/coordinate_system_xyz.png
     :width: 400 px
     :align: center
     :figwidth: 600 px
