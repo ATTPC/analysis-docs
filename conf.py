@@ -59,7 +59,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'AT-TPC Analysis'
+project = 'AT-TPC_Analysis'
 author = 'NSCL AT-TPC Group'
 copyright = '2017, ' + author
 docs_title = 'AT-TPC Analysis Documentation'
