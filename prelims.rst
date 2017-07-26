@@ -200,8 +200,8 @@ Test for correct code compilation by running the *test_mcopt* executable:
    ./test_mcopt
 
 
-4) Create a new Virtual Env
----------------------------
+4) Create a new Virtual Environment
+-----------------------------------
 
 Now, create a virtual environment by entering the following into the command line:
 

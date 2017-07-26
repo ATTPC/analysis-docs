@@ -59,7 +59,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'AT-TPC_Analysis'
+project = 'AT-TPC Analysis'
 author = 'NSCL AT-TPC Group'
 copyright = '2017, ' + author
 docs_title = 'AT-TPC Analysis Documentation'
@@ -215,7 +215,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', project + '.tex', docs_title,
+  ('index', 'AT-TPC_Analysis' + '.tex', docs_title,
    author, 'manual'),
 ]
 
