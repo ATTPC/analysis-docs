@@ -1,5 +1,5 @@
-1) Merge and Unpack GRAW Files into HDF5 Files
-==============================================
+Merge and Unpack GRAW Files into HDF5 Files
+===========================================
 
 Installing and Compiling
 ------------------------

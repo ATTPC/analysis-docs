@@ -5,7 +5,7 @@ Steps differ between operating systems, so be sure to follow the correct instruc
 
 1) Install Python 3.6+
 ----------------------
-Check your current python version(s) by entering the following commands into the command line: 
+Check your current python version(s) by entering the following commands into the command line:
 
 
 .. code-block:: shell
@@ -23,7 +23,7 @@ Running a **Linux distribution**, Python must be compiled. Download and compile 
    If CMake is not already on your machine see step 3a to install it.
 
 .. code-block:: shell
-   
+
    wget https://www.python.org/ftp/python/3.6.1/Python-3.6.1.tar.xz
    tar xvf Python-3.6.1.tar.xz   # sudo might be required
    cd Python-3.6.1
@@ -43,7 +43,7 @@ Running **macOS** install/update Python 3.0+ (here using the reccomended `Homebr
 .. code-block:: shell
 
    brew install python3
-   brew upgrade python3 
+   brew upgrade python3
 
 A .profile file is a shell script that Bash runs whenever it is started or executed by the user. Setting up pytpc on Linux distributions involves adding lines to a built-in .bashrc, and the .profile is the macOS equivalent. However, you must first create the .profile file as it is not included on Mac systems by default. **Create and open a plain text file titled `.profile` in your home directory**. This file will not appear in your home directory unless you enter 'ls -a' in the terminal to show hidden files.
 
@@ -81,7 +81,7 @@ b) Install virtualenvwrapper
 Install and setup virtualenvwrapper and associated tools. This allows you to create isolated "virtual environments" with independent installations of Python packages. This isn't strictly necessary, but helps prevent conflicts between incompatible package versions. To install virtualenvwrapper, run the command below:
 
 .. code-block:: shell
-   
+
    pip install virtualenvwrapper   # sudo might be required
 
 An introduction and walkthrough to using the virtualenvwrapper tool can be found `here <https://virtualenvwrapper.readthedocs.io/en/latest/>`__. To use virtual environments, place the following lines in your .bashrc or .profile file. The first line sets the Python interpreter for your virtual environments to python3.6. The last line is a path to your shell startup file, and you should change it depending on where virtualenvwrapper was installed by pip.
@@ -92,15 +92,15 @@ An introduction and walkthrough to using the virtualenvwrapper tool can be found
    export WORKON_HOME=$HOME/.virtualenvs
    source /usr/local/bin/virtualenvwrapper.sh
 
-.. note:: 
-   
+.. note::
+
    Remember to enter `source ~/.basrhc` or `source ~/.profile` into the command line or restart it so that these changes take effect.
 
 
 3) Compile and Install the mcopt Library
 ----------------------------------------
 This is the Monte Carlo code library. There are a few dependencies that must be installed before the library itself.
-	
+
 a) Install CMake
 ****************
 
@@ -119,12 +119,12 @@ After installation, check the version of CMake that was installed with the follo
 b) Install Armadillo
 ********************
 
-`Armadillo <http://arma.sourceforge.net/>`__ is a wrapper that presents a clean interface to several linear algebra libraries. 
+`Armadillo <http://arma.sourceforge.net/>`__ is a wrapper that presents a clean interface to several linear algebra libraries.
 
 If running a **Linux distribution**, it is best to compile Armadillo from source following the instructions `here <http://arma.sourceforge.net/download.html>`__. The process is outlined below. First, install the reccomended packages based the OS being run. Then, in the command line, use wget to download the .tar archive and extract it (use the link above to find the most recent release):
 
 .. code-block:: shell
-   
+
    wget http://sourceforge.net/projects/arma/files/armadillo-7.950.1.tar.xz
    tar xzf armadillo-7.950.1.tar.xz   # sudo might be required
    cd armadillo-7.950.1
@@ -144,14 +144,14 @@ To test that armadillo and its prerequisites have been installed correctly, run 
 If running **macOS**, install Armadillo using brew (this requires the addition of a Homebrew/science repository):
 
 .. code-block:: shell
-   
+
    brew tap homebrew/science
    brew install armadillo
 
 c) Install the HDF5 Library
 ***************************
 
-The `HDF5 Library <https://support.hdfgroup.org/HDF5/>`__ (compiled with C++ support) is used for storing and managing raw experimental data. 
+The `HDF5 Library <https://support.hdfgroup.org/HDF5/>`__ (compiled with C++ support) is used for storing and managing raw experimental data.
 
 If running a **Linux distribution**, it is easiest to install and build the library with CMake, the steps for which can be found `here <https://support.hdfgroup.org/HDF5/release/cmakebuild518.html>`__. To download and uncompress the file, find the link to the most recent release and enter the following into the command line.
 
@@ -168,7 +168,7 @@ If running **macoS**, Homebrew most likely installed the HDF5 Library as a depen
 
 .. code-block:: shell
 
-   brew install hdf5 
+   brew install hdf5
 
 d) Install and Compile mcopt Library
 ************************************
@@ -200,8 +200,8 @@ Test for correct code compilation by running the *test_mcopt* executable:
    ./test_mcopt
 
 
-4) Create a new Virtual Env
----------------------------
+4) Create a new Virtual Environment
+-----------------------------------
 
 Now, create a virtual environment by entering the following into the command line:
 
@@ -237,7 +237,7 @@ Then, to install pytpc from the source code, run:
 To test for correct installation, run the provided tests with the following command:
 
 .. code-block:: shell
-   
+
    python -m unittest discover
 
 

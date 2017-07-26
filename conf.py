@@ -215,7 +215,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', project + '.tex', docs_title,
+  ('index', 'AT-TPC_Analysis' + '.tex', docs_title,
    author, 'manual'),
 ]
 
