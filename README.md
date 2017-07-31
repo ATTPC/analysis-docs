@@ -2,7 +2,7 @@
 
 # Analysis Manual for pytpc
 
-This documentation manual provides steps for installation and use of the [pytpc package](https://github.com/ATTPC/pytpc) that provides Python modules for reading, analyzing, and fitting data from the Active-Target Time Projection Chamber (AT-TPC) at the [NSCL](http://www.nscl.msu.edu/). The documentation is hosted online by ReadTheDocs [ReadTheDocs](https://attpc-analysis.readthedocs.io/en/latest/) but steps for offline compilation are listed below.
+This documentation manual provides steps for installation and use of the [pytpc package](https://github.com/ATTPC/pytpc) that provides Python modules for reading, analyzing, and fitting data from the Active-Target Time Projection Chamber (AT-TPC) at the [NSCL](http://www.nscl.msu.edu/). The documentation is hosted online by [ReadTheDocs](https://attpc-analysis.readthedocs.io/en/latest/) but steps for offline compilation are listed below.
 
 ## Dependencies
 

@@ -20,4 +20,5 @@ Contents:
    config
    unpackGRAW
    cleanGETData
+   runMonteCarloFitter
    coords
