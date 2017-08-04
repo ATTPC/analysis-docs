@@ -33,6 +33,8 @@ Then, the file can be read as follows:
 
 The configuration parameters will then be available in the standard Python dictionary object ``config``.
 
+.. _configPatchingSection:
+
 Config patching
 ---------------
 
@@ -341,4 +343,3 @@ Sample file
             level: 'INFO'
             handlers:
                 - console
-
